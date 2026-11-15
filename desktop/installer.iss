@@ -1,9 +1,9 @@
 ; 佳明体重助手 · Inno Setup 安装包脚本
 ; 编译：ISCC.exe desktop\installer.iss
-; 输出：dist\佳明体重助手_v1.5.0_安装包.exe（免管理员，装到当前用户的 Programs 目录）
+; 输出：dist\佳明体重助手_v1.5.1_安装包.exe（免管理员，装到当前用户的 Programs 目录）
 
 #define MyAppName "佳明体重助手"
-#define MyAppVersion "1.5.0"
+#define MyAppVersion "1.5.1"
 #define MyAppExeName "GarminWeightHelper.exe"
 #define MyAppId "{{8E4B1C2A-6F3D-4A57-9A1E-2C7D5B9F3A64}"
 

@@ -60,7 +60,7 @@ from sync_tool.models import Measurement, parse_time
 from sync_tool.report import _parse_keyvalue, parse_report_text, to_measurement
 
 APP_NAME = "佳明体重助手"
-VERSION = "1.5.0"
+VERSION = "1.5.1"
 OUTPUT_DIR = DATA_DIR / "out" / "desktop"
 IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".bmp", ".webp", ".tif", ".tiff"}
 
