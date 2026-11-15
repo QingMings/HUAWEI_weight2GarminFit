@@ -1941,7 +1941,7 @@ class MainWindow(QMainWindow):
 
     def _garmin_url(self) -> str:
         base = "connect.garmin.com" if self.region.currentIndex() == 1 else "connect.garmin.cn"
-        return f"https://{base}/modern/import-data"
+        return f"https://{base}/app/import-data"
 
     def _open_folder(self) -> None:
         OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
