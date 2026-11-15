@@ -1,0 +1,41 @@
+[
+  {
+    "type": 10006,
+    "timeZone": "+0800",
+    "deviceCode": "LUP-B19",
+    "samplePoints": [
+      {
+        "key": "WEIGHT_BODYFAT_BROAD",
+        "startTime": 1794526200000,
+        "endTime": 1794526200000,
+        "value": "{\"bodyWeight\":70.8,\"bodyFatRate\":18.6,\"bmi\":23.1,\"moistureRate\":55.2,\"muscleMass\":52.4,\"boneSalt\":2.9,\"visceralFatLevel\":8.0,\"basalMetabolism\":1542,\"bodyAge\":31,\"proteinRate\":16.8,\"bodyScore\":86,\"heartRate\":68,\"extendAttribute\":\"0\"}"
+      }
+    ]
+  },
+  {
+    "type": 10006,
+    "timeZone": "+0800",
+    "deviceCode": "LUP-B19",
+    "samplePoints": [
+      {
+        "key": "WEIGHT_BODYFAT_BROAD",
+        "startTime": 1794612600000,
+        "endTime": 1794612600000,
+        "value": "{\"bodyWeight\":70.3,\"bodyFatRate\":18.2,\"bmi\":22.9,\"moistureRate\":55.6,\"muscleMass\":52.6,\"boneSalt\":2.9,\"visceralFatLevel\":8.0,\"basalMetabolism\":1540,\"bodyAge\":31,\"proteinRate\":16.9,\"bodyScore\":87,\"heartRate\":66,\"extendAttribute\":\"0\"}"
+      }
+    ]
+  },
+  {
+    "type": 10006,
+    "timeZone": "+0800",
+    "deviceCode": "LUP-B19",
+    "samplePoints": [
+      {
+        "key": "WEIGHT_BODYFAT_BROAD",
+        "startTime": 1794699000000,
+        "endTime": 1794699000000,
+        "value": "{\"bodyWeight\":69.9,\"bodyFatRate\":17.9,\"bmi\":22.8,\"moistureRate\":56.1,\"muscleMass\":52.8,\"boneSalt\":2.9,\"visceralFatLevel\":7.0,\"basalMetabolism\":1538,\"bodyAge\":30,\"proteinRate\":17.0,\"bodyScore\":88,\"heartRate\":65,\"extendAttribute\":\"0\"}"
+      }
+    ]
+  }
+]

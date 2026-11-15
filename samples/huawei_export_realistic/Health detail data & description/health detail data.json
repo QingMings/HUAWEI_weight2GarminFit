@@ -1,0 +1,113 @@
+[
+  {
+    "type": 8,
+    "recordId": "legacy-001",
+    "startTime": 1546646400000,
+    "endTime": 1546646400000,
+    "timeZone": "+0800",
+    "deviceCode": "LUP-B19",
+    "samplePoints": [
+      {
+        "key": "WEIGHT_BODYFAT_BROAD",
+        "startTime": 1546646400000,
+        "endTime": 1546646400000,
+        "value": "{\"bodyWeight\":72.1,\"extendAttribute\":\"0\"}"
+      }
+    ]
+  },
+  {
+    "type": 8,
+    "recordId": "oct-001",
+    "startTime": 1790983800000,
+    "endTime": 1790983800000,
+    "timeZone": "+0800",
+    "deviceCode": "LUP-B19",
+    "samplePoints": [
+      {
+        "key": "WEIGHT_BODYFAT_BROAD",
+        "startTime": 1790983800000,
+        "endTime": 1790983800000,
+        "value": "{\"bodyWeight\":75.4,\"bodyFatRate\":21.7,\"moistureRate\":54.6,\"muscleMass\":56.1,\"skeletalMusclelMass\":31.1,\"boneSalt\":2.9,\"basalMetabolism\":1678.0,\"visceralFatLevel\":10.5,\"bodyAge\":32,\"bmi\":24.6,\"bodyScore\":78.0,\"protein\":14.4,\"proteinRate\":15.0,\"age\":40,\"gender\":1,\"height\":175,\"extendAttribute\":\"0\"}"
+      }
+    ]
+  },
+  {
+    "type": 10006,
+    "recordId": "oct-001",
+    "startTime": 1790983800000,
+    "endTime": 1790983800000,
+    "timeZone": "+0800",
+    "deviceCode": "LUP-B19",
+    "samplePoints": [
+      {
+        "key": "WEIGHT_BODYFAT_BROAD",
+        "startTime": 1790983800000,
+        "endTime": 1790983800000,
+        "value": "{\"bodyWeight\":75.4,\"bodyFatRate\":21.7,\"moistureRate\":54.6,\"muscleMass\":56.1,\"skeletalMusclelMass\":31.1,\"boneSalt\":2.9,\"basalMetabolism\":1678.0,\"visceralFatLevel\":10.5,\"bodyAge\":32,\"bmi\":24.6,\"bodyScore\":78.0,\"protein\":14.4,\"proteinRate\":15.0,\"age\":40,\"gender\":1,\"height\":175,\"extendAttribute\":\"0\"}"
+      }
+    ]
+  },
+  {
+    "type": 10006,
+    "recordId": "oct-002",
+    "startTime": 1791033000000,
+    "endTime": 1791033000000,
+    "timeZone": "+0800",
+    "deviceCode": "LUP-B19",
+    "samplePoints": [
+      {
+        "key": "WEIGHT_BODYFAT_BROAD",
+        "value": "{\"bodyWeight\":75.1,\"bodyFatRate\":21.5,\"moistureRate\":54.8,\"muscleMass\":56.0,\"skeletalMusclelMass\":31.0,\"boneSalt\":2.9,\"basalMetabolism\":1676.0,\"visceralFatLevel\":10.0,\"bodyAge\":32,\"bmi\":24.5,\"height\":175,\"extendAttribute\":\"0\"}"
+      }
+    ]
+  },
+  {
+    "type": 10006,
+    "recordId": "nov-001",
+    "subUser": "10002",
+    "startTime": 1794612900000,
+    "endTime": 1794612900000,
+    "timeZone": "+0800",
+    "deviceCode": "LUP-B19",
+    "samplePoints": [
+      {
+        "key": "WEIGHT_BODYFAT_BROAD",
+        "startTime": 1794612900000,
+        "endTime": 1794612900000,
+        "value": "{\"bodyWeight\":58.2,\"bodyFatRate\":26.4,\"height\":162,\"extendAttribute\":\"0\"}"
+      }
+    ]
+  },
+  {
+    "type": 10006,
+    "recordId": "nov-002",
+    "startTime": 1794699600000,
+    "endTime": 1794699600000,
+    "timeZone": "+0800",
+    "deviceCode": "LUP-B19",
+    "samplePoints": [
+      {
+        "key": "WEIGHT_BODYFAT_BROAD",
+        "startTime": 1794699600000,
+        "endTime": 1794699600000,
+        "value": "{\"bodyWeight\":63.7,\"bodyFatRate\":19.1,\"height\":170,\"extendAttribute\":\"10003\"}"
+      }
+    ]
+  },
+  {
+    "type": 10006,
+    "recordId": "nov-003",
+    "startTime": 1794701100000,
+    "endTime": 1794701100000,
+    "timeZone": "+0800",
+    "deviceCode": "LUP-B19",
+    "samplePoints": [
+      {
+        "key": "WEIGHT_BODYFAT_BROAD",
+        "startTime": 1794701100000,
+        "endTime": 1794701100000,
+        "value": "{\"bodyWeight\":74.8,\"bodyFatRate\":21.2,\"moistureRate\":55.0,\"muscleMass\":56.3,\"skeletalMusclelMass\":31.4,\"boneSalt\":2.9,\"basalMetabolism\":1680.0,\"visceralFatLevel\":10.0,\"bodyAge\":32,\"bmi\":24.4,\"height\":175,\"extendAttribute\":\"0\"}"
+      }
+    ]
+  }
+]

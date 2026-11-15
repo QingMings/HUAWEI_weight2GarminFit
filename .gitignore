@@ -18,7 +18,10 @@ desktop/vendor/
 .idea/
 
 # 个人样例数据、第三方参考资料、早期网页原型：不入库
-samples/
+# （tests/test_pipeline.py 用到的两份虚构样例例外，其余真实报告截图不提交）
+samples/*
+!samples/huawei_health_sample.json
+!samples/huawei_export_realistic/
 reference/
 web/
 hello.spec
