@@ -1,0 +1,24 @@
+# Python 虚拟环境与缓存
+.venv/
+desktop/.venv/
+__pycache__/
+*.py[cod]
+
+# 构建与运行产物（CI 会重新生成）
+dist/
+build/
+out/
+desktop/logs/
+desktop/vendor/
+
+# 本地工具/编辑器
+.workbuddy/
+.trae/
+.vscode/
+.idea/
+
+# 个人样例数据、第三方参考资料、早期网页原型：不入库
+samples/
+reference/
+web/
+hello.spec

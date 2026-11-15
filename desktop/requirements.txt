@@ -1,0 +1,8 @@
+# 佳明体重助手依赖。首次运行由 启动软件.bat 联网安装一次；
+# 之后图片识别全在本机完成，断网可用（RapidOCR 的 ONNX 模型随包分发）。
+# 只装 Essentials：QtWidgets/Core/Gui 都在里面，省掉 WebEngine/Addons/Pdf 约 175 MB。
+# 已实测 main.py 用到的全部模块仅靠 Essentials 即可导入。
+PySide6-Essentials==6.12.0
+rapidocr==3.10.0
+onnxruntime>=1.20.0
+Pillow>=10.0.0

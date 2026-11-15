@@ -1,0 +1,11 @@
+# 转换与官方网页导入：零依赖，Python 3.10+ 标准库即可
+#
+# 仅当使用 `python -m sync_tool upload` 自动上传时才需要安装：
+garminconnect>=0.3.0
+# 0.3.20 起已不再依赖 garth，改为自带 SSO + DI OAuth 登录实现
+# 依赖：curl_cffi / requests / ua-generator；要求 Python >= 3.12（本机 3.13.14 满足）
+# is_cn=True 时走 sso/connectapi/diauth.garmin.cn
+#
+# 可选：`python -m sync_tool validate` 会用 Garmin 官方 SDK 再独立复核一次 FIT
+# （编码用标准库，解码用官方 SDK，避免同一个 bug 在编码/解码两端互相抵消）
+# garmin-fit-sdk>=21.221.0
