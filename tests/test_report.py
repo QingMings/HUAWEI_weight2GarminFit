@@ -18,8 +18,18 @@ ROOT = Path(__file__).resolve().parent.parent
 EXPECTED = json.loads(
     (ROOT / "tests" / "fixtures" / "report_expected.json").read_text(encoding="utf-8")
 )
-KV_TEXT = (ROOT / EXPECTED["source"]).read_text(encoding="utf-8")
-OCR_TEXT = (ROOT / EXPECTED["ocr_source"]).read_text(encoding="utf-8")
+
+
+def _read_sample(relative: str) -> str:
+    """真实报告样例含个人数据，不随公开仓库分发；缺失时跳过这一组测试。"""
+    path = ROOT / relative
+    if not path.exists():
+        raise unittest.SkipTest(f"本地真实样例不存在，跳过：{relative}")
+    return path.read_text(encoding="utf-8")
+
+
+KV_TEXT = _read_sample(EXPECTED["source"])
+OCR_TEXT = _read_sample(EXPECTED["ocr_source"])
 
 
 class ReportParsingTests(unittest.TestCase):
