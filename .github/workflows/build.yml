@@ -64,6 +64,22 @@ jobs:
             exit 1
           }
 
+      - name: 发布失败日志
+        if: failure()
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $log = Join-Path $env:RUNNER_TEMP "build.log"
+          if (-not (Test-Path $log)) { Write-Host "没有 build.log 可发布"; exit 0 }
+          $tail = Get-Content $log -Tail 50 | Out-String
+          $text = "CI 构建失败日志（自动发布，便于排查）`n`n~~~`n$tail`n~~~"
+          $payload = @{ body = $text } | ConvertTo-Json -Depth 3
+          Invoke-RestMethod -Uri "https://api.github.com/repos/$env:GITHUB_REPOSITORY/commits/$env:GITHUB_SHA/comments" `
+            -Method Post -ContentType "application/json" -Body $payload `
+            -Headers @{ Authorization = "Bearer $env:GH_TOKEN"; "User-Agent" = "ci"; Accept = "application/vnd.github+json" } | Out-Null
+          Write-Host "已发布失败日志到 commit comment"
+
       - name: 生成绿色版压缩包
         shell: pwsh
         run: |
