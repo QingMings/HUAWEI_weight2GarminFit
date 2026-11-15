@@ -4,7 +4,7 @@
 
 全程在本机处理：图片识别用本地 OCR（RapidOCR + ONNX 模型），手机走 USB + ADB 读控件树，不经过任何服务器。
 
-<img src="samples/huawei_report_20261112.jpg" width="260" alt="华为运动健康人体成分分析报告示例">
+<img src="docs/screenshot-main.png" width="760" alt="佳明体重助手界面：左侧报告原图，右侧识别结果，下方待导入清单">
 
 ## 功能
 
@@ -17,6 +17,10 @@
 - **中文时间格式**：支持华为的 12 小时制写法，如 `晚上8:02`、`半夜11:08`、`凌晨12:05`。
 - **只有体重的记录也能保留**：没握电极、未测到脂肪率的称重记录会以「只有体重」的形式进入导出文件。
 - **导出**：`garmin_import.csv`（Garmin 网页「导入数据」用）和 `garmin_weight.fit`（支持中国区 `connect.garmin.cn` 与国际区 `connect.garmin.com`）。
+
+输入示例（华为运动健康的人体成分分析报告长图）：
+
+<img src="samples/huawei_report_20261112.jpg" width="240" alt="华为运动健康人体成分分析报告示例">
 
 ## 下载安装
 
