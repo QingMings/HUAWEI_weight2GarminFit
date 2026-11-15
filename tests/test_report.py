@@ -21,10 +21,10 @@ EXPECTED = json.loads(
 
 
 def _read_sample(relative: str) -> str:
-    """真实报告样例含个人数据，不随公开仓库分发；缺失时跳过这一组测试。"""
+    """报告样例（作者已同意公开本人的体重数据）；文件缺失时跳过这一组测试。"""
     path = ROOT / relative
     if not path.exists():
-        raise unittest.SkipTest(f"本地真实样例不存在，跳过：{relative}")
+        raise unittest.SkipTest(f"本地样例不存在，跳过：{relative}")
     return path.read_text(encoding="utf-8")
 
 
